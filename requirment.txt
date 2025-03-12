@@ -1,0 +1,6 @@
+selenium
+pandas
+openpyxl
+scikit-learn
+matplotlib
+seaborn
