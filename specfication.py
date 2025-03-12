@@ -9,7 +9,7 @@ df = pd.read_excel("cars.xlsx")
 
 # Vectorize car names using TF-IDF
 vectorizer = TfidfVectorizer()
-X = vectorizer.fit_transform(df['Name'])
+X = vectorizer.fit_transform(df['Model'])
 
 # Function to find related car names
 def get_related_cars(car_name, top_n=3):

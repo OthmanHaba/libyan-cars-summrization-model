@@ -6,7 +6,7 @@ import seaborn as sns
 
 # Load your data (replace with your file path)
 data = pd.read_excel('cars.xlsx')  # Replace with your file path
-car_names = data['Name']  # Replace with the correct column name
+car_names = data['Model']  # Replace with the correct column name
 
 # Vectorize the car names using TF-IDF
 vectorizer = TfidfVectorizer()
